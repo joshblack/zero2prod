@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
-      - uses: actions/cache@v2.1.6
+      - uses: actions/cache@v3
         with:
           path: |
             ~/.cargo/registry
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
-      - uses: actions/cache@v2.1.6
+      - uses: actions/cache@v3
         with:
           path: |
             ~/.cargo/registry
@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
-      - uses: actions/cache@v2.1.6
+      - uses: actions/cache@v3
         with:
           path: |
             ~/.cargo/registry
